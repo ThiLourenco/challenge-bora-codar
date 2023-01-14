@@ -8,7 +8,7 @@ export default [
   {
     title: "No Matter What",
     artist: "T.I.",
-    cover: "album.jpg",
+    cover: "album3.jpg",
     file: "T.I. - No Matter What.mp3",
   },
   {
