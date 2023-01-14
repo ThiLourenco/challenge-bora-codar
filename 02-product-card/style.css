@@ -1,0 +1,120 @@
+:root {
+  --background-card: #D9CDF7;
+  --text-color: #271A45; 
+
+  --font-default: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--background-card);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-family);
+}
+
+.container {
+  background-color: var(--background-card);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  border-radius: 8px;
+  padding: 2rem;
+  width: fit-content;
+  margin: 1.5rem;
+}
+
+.product-image {
+  display: flex;
+  position: relative;
+}
+
+#action.active img {
+  width: 1rem;
+}
+
+#product-image img {
+  max-width: 420px;
+  width: 100%;
+  height: auto;
+}
+
+.product-image button {
+  position: absolute;
+  top: 0;
+  right: 40px;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--background-card);
+  border-radius: 16px;
+  border:none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.product-code {
+  font-size: 12px;
+  color: var(--text-color);
+}
+
+.product-name {
+  font-size: 16pt;
+  color: var(--text-color);
+  opacity: 0.75;
+}
+
+.product-price {
+  font-size: 14pt;
+  color: var(--text-color);
+  opacity: 0.75;
+}
+
+.add-cart {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--text-color);
+  width: fit-content;
+  border-radius: 16px;
+  background-color: var(--background-color);
+  transition: 0.3s;
+  cursor: pointer;
+  font-size: 12pt;
+  color: var(--text-color);
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.add-cart:hover {
+  background-color: #a396c4;
+}
+
+.add-cart:active {
+  background-color: #706785;
+}
+
+@media (min-width: 100px) and (max-width: 720px) {
+  .container {
+    flex-direction: column;
+  }
+}
