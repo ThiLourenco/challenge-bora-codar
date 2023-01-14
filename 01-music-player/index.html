@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,700&display=swap"
+    rel="stylesheet"
+  />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="./assets/music.ico" type="image/x-icon">
+  <link rel="stylesheet" href="./css/styles.css">
+  <title>Music Player</title>
+</head>
+<body>
+  <main id="player">
+    <div class="card">
+      <div class="card-img"></div>
+      <div class="card-content">
+        <h1>title</h1>
+        <p class="artist">Artist</p>
+        <div class="controls-audio">
+          <button class="previous-control"><img src="./assets/previous-control.svg" alt="Botão para voltar a música"></button>
+          <button class="play-control"><img src="./assets/play-control.svg" alt="Botão para dar executar na música"></button>
+          <button class="pause-control hide"><img src="./assets/pause-control.svg" alt="botão para pausar a música"></button>
+          <button class="next-control"><img src="./assets/next-control.svg" alt="Botão para avançar proxima musica música"></button>    
+        </div>
+        <div>
+          <input type="range" min="0" max="0" class="timeLine" id="setbar" step="1">
+        </div>
+        <div class="timer">
+          <div class="time" id="current-duration">00:00</div>
+          <div class="time" id="total-duration">00:00</div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <script src="./script/main.js" type="module"></script>
+</body>
+</html>

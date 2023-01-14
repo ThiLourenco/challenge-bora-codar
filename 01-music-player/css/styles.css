@@ -1,0 +1,157 @@
+:root {
+  --bg: #121214;
+  --card-bg: #2A2141;
+  --text-color: #E1E1E6;
+  --icons-color: #D9D9D9;
+  --seekbar: #D9D9D9;
+  --timer-color: #e8eaf6;
+
+  --primary-font: 'Roboto', sans-serif;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+body {
+  height: 100vh;
+  background-color: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#player {
+  width: 90%;
+  background-color: var(--card-bg);
+  max-width: 27rem;
+  border-radius: 16px;
+}
+
+.card {
+  padding: 4rem;
+}
+
+.card-img {
+  background: url();
+  height: 19rem;
+  border-radius: .6rem;
+}
+
+h1 {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin: 2.8rem 0 1rem 0;
+}
+
+p {
+  font-family: var(--primary-font);
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.controls-audio {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.timeLine {
+  -webkit-appearance: none;
+  appearance: none;
+  background: var(--seekbar);
+  border-radius: 16px;
+  height: 0.6rem;
+  opacity: 0.2;
+  width: 100%;
+}
+
+.timeLine::-webkit-slider-thumb {
+  width: 100%;
+  background-color: var(--seekbar);
+}
+
+.timeLine::-moz-range-thumb {
+  width: 100%;
+  background-color: var(--seekbar);
+}
+
+.timeLine::-ms-thumb {
+  width: 100%;
+  background-color: var(--seekbar);
+}
+
+.timer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.time {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--timer-color);
+  margin-top: 1rem;
+}
+
+@media (min-width: 600px) {
+  #player {
+    width: 40rem;
+    height: 30.7rem;
+    max-width: 90%;
+    position: absolute;
+  }
+
+  .card-img {
+  background: url();
+  height: 10rem;
+  width: 10rem;
+  border-radius: .6rem
+  }
+
+  h1 {
+    position: relative;
+    left: 12rem;
+    top: -12rem;
+    font-size: 2.4rem;
+  }
+
+  p{
+    position: relative;
+    left: 12rem;
+    top: -12rem;
+    font-size: 1.9rem;
+  }
+
+  .controls-audio {
+    position: relative;
+    top: -8rem;
+  }
+
+  .timeLine {
+    position: relative;
+    top: -9rem;
+  }
+
+  .timer {
+    position: relative;
+    top: -9rem;
+  }
+}
