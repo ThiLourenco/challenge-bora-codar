@@ -7,12 +7,14 @@
 
   --blue-light: #321CFA;
   --blue-mid: #5581F1;
+  --primary-font: 'Roboto', sans-serif;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font: var(--primary-font);
 }
 
 body {
@@ -72,3 +74,23 @@ a:hover {
 li:hover {
   border: solid 1px var(--blue-mid);
 }
+
+footer {
+  text-align: center;
+  padding: 6rem 0 2rem;
+  color: var(--text-color);
+  bottom: 0;
+
+  position: absolute;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+footer a img {
+  width: 50px;
+  hight: 50px;
+
