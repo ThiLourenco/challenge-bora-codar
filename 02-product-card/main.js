@@ -18,7 +18,6 @@ const handleImage = () => {
   }
 }
 
-
 const handleCart = () => {
   alert("Em construção !");
 }
