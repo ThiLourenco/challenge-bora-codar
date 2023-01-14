@@ -1,7 +1,8 @@
 :root {
   --background-card: #D9CDF7;
   --text-color: #271A45; 
-
+  --cart: #a396c4;
+  --cart-light: #706785;
   --font-default: 'Roboto', sans-serif;
 }
 
@@ -49,6 +50,11 @@ body {
   height: auto;
 }
 
+.change {
+  width: 449px;
+  height: 253px; 
+}
+
 .product-image button {
   position: absolute;
   top: 0;
@@ -65,21 +71,21 @@ body {
   cursor: pointer;
 }
 
-.product-info {
+.product {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: 12px;
 }
 
 .product-code {
   font-size: 12px;
   color: var(--text-color);
+  text-transform: uppercase;
 }
 
 .product-name {
-  font-size: 16pt;
+  font-size: 18pt;
   color: var(--text-color);
-  opacity: 0.75;
 }
 
 .product-price {
@@ -111,6 +117,27 @@ body {
 
 .add-cart:active {
   background-color: #706785;
+}
+
+footer {
+  text-align: center;
+  padding: 6rem 0 2rem;
+  color: var(--text-color);
+  bottom: 0;
+
+  position: absolute;
+
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+footer a img {
+  width: 50px;
+  hight: 50px;
+
 }
 
 @media (min-width: 100px) and (max-width: 720px) {
