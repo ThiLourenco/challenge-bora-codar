@@ -1,8 +1,8 @@
 
-<h1 align="center"> Bora Codar - um player de música</h1>
+<h1 align="center"> Bora Codar - Card Produto </h1>
 
 <p align="center">
-Primeiro projeto dos desafios semanais, o #boracodar é um espaço para mostrar nossas habilidades na programação.  <br/>
+Segundo projeto dos desafios semanais, o #boracodar é um espaço para mostrar nossas habilidades na programação.  <br/>
 <a href="https://boracodar.dev">Acesse a plataforma Bora Codar.</a>
 </p>
 
@@ -33,11 +33,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Sempre na quarta-feira, às 11h, vai ser liberado um novo desafio no site boracodar.dev.
 
-- [Acesse o projeto finalizado, online](https://thilourenco.github.io/challenge-bora-codar/01-music-player/)
+- [Acesse o projeto finalizado, online](https://thilourenco.github.io/challenge-bora-codar/02-product-card/)
 
 ## 🔖 Layout
 
-Você pode visualizar o layout do projeto através do [link](https://www.figma.com/community/file/1195050524500542670). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+Você pode visualizar o layout do projeto através do [link](<https://www.figma.com/file/PGD234yNkplbLm5IhMsl01/%23boraCodar---Desafio-2-(Community)?node-id=0%3A1&t=MLAdOT70ovkGb5VD-0>). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
 
 ## :memo: Licença
 
